@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quench — Privacy Policy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: #f5f7fa;
+            color: #1a1a1a;
+            line-height: 1.7;
+            padding: 20px;
+        }
+        .container { max-width: 760px; margin: 0 auto; padding: 40px 20px; }
+        h1 { font-size: 34px; font-weight: 800; margin-bottom: 8px; color: #0D47A1; }
+        h2 { font-size: 22px; font-weight: 700; margin: 32px 0 12px; color: #1976D2; }
+        p { margin-bottom: 12px; }
+        ul { margin: 0 0 16px 24px; }
+        li { margin-bottom: 8px; }
+        a { color: #1976D2; }
+        .back { display: inline-block; margin-bottom: 24px; text-decoration: none; color: #1976D2; font-weight: 600; }
+        .footer { margin-top: 60px; padding-top: 24px; border-top: 1px solid #e0e0e0; font-size: 14px; color: #666; }
+        .updated { font-size: 14px; color: #666; margin-bottom: 24px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back">← Back to Home</a>
+        <h1>Privacy Policy</h1>
+        <p class="updated">Last updated: July 7, 2026</p>
+
+        <p>Quench ("we", "us", or "the app") is built with a privacy-first, local-first philosophy. This policy explains what data we collect, how we use it, and the choices you have.</p>
+
+        <h2>1. Data We Collect</h2>
+        <p><strong>We do not collect, store, or transmit your personal data to our servers.</strong> Quench has no server. All your plant data — plants, photos, watering logs, rooms, settings — is stored locally on your device using SwiftData (Apple's on-device database).</p>
+
+        <h2>2. Photos and Plant Data</h2>
+        <ul>
+            <li>Plant photos you add are stored locally on your device in SwiftData.</li>
+            <li>Photos in the Photo Diary (Premium feature) are also stored locally only.</li>
+            <li>We never upload your photos to any Quench-operated server.</li>
+        </ul>
+
+        <h2>3. OpenAI API Key (BYO Key)</h2>
+        <p>If you choose to use AI features (identification, diagnosis, coach chat), you must provide your own OpenAI API key:</p>
+        <ul>
+            <li>Your API key is stored securely in the iOS Keychain — never in plain text, never on our servers.</li>
+            <li>When you use an AI feature, your plant photo and/or question is sent <strong>directly from your device to OpenAI's API</strong> using your key.</li>
+            <li>This transmission is governed by <a href="https://openai.com/privacy/" target="_blank" rel="noopener">OpenAI's Privacy Policy</a>.</li>
+            <li>Quench does not intercept, log, or store the data sent to OpenAI.</li>
+            <li>You can remove your API key at any time in Settings → OpenAI API Key → Remove.</li>
+        </ul>
+
+        <h2>4. Location Data (WeatherKit)</h2>
+        <p>If you unlock Premium and enable weather integration:</p>
+        <ul>
+            <li>Quench requests your approximate location (kilometer-level accuracy) to fetch weather data via Apple's WeatherKit.</li>
+            <li>Location data is used only to fetch the current weather and is not stored or transmitted anywhere except Apple's WeatherKit API.</li>
+            <li>You can deny location permission and the app will continue to work with seasonal adjustments only.</li>
+        </ul>
+
+        <h2>5. Notifications</h2>
+        <p>Quench sends local notifications (the daily watering digest) directly from your device. No push notification server is used. Notification preferences are stored locally in UserDefaults.</p>
+
+        <h2>6. App Groups (Widget Data Sharing)</h2>
+        <p>To enable the home screen widget, Quench writes a small JSON file (plant names and watering status — no photos) to an App Group container shared between the main app and the widget extension. This data never leaves your device.</p>
+
+        <h2>7. Purchases (StoreKit)</h2>
+        <p>In-app purchases are processed entirely by Apple's StoreKit framework. Quench receives only a confirmation of entitlement (purchased / not purchased) — we never see your payment method, billing address, or Apple ID.</p>
+
+        <h2>8. Contact Support</h2>
+        <p>If you use the Contact Support feature, your name, email, and message are sent to our feedback endpoint (iocompile67692@gmail.com). This data is used solely to respond to your support request and is not used for marketing.</p>
+
+        <h2>9. Data Export</h2>
+        <p>Premium users can export all their data (plants, watering logs, rooms, photos) as a JSON file at any time via Settings → Export Data. This file is saved to your device and can be shared via the iOS share sheet.</p>
+
+        <h2>10. Data Retention</h2>
+        <p>All data is stored on your device only. Deleting the Quench app permanently deletes all plant data, photos, and settings. We cannot recover this data for you — please use the Export Data feature (Premium) to create backups.</p>
+
+        <h2>11. Children's Privacy</h2>
+        <p>Quench does not knowingly collect data from children under 13. The app does not require an account and collects no personal information.</p>
+
+        <h2>12. Third-Party Services</h2>
+        <ul>
+            <li><strong>OpenAI API</strong> — Only used if you provide your own API key. Governed by OpenAI's privacy policy.</li>
+            <li><strong>Apple WeatherKit</strong> — Only used if you unlock Premium and grant location permission. Governed by Apple's privacy policy.</li>
+            <li><strong>Apple StoreKit</strong> — Used for in-app purchases. Governed by Apple's privacy policy.</li>
+        </ul>
+
+        <h2>13. Your Rights</h2>
+        <p>Since we do not collect or store your personal data on our servers, there is no data to access, correct, or delete on our end. All data is under your control on your device. To delete all data, simply delete the Quench app.</p>
+
+        <h2>14. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated "Last updated" date.</p>
+
+        <h2>15. Contact Us</h2>
+        <p>If you have questions about this Privacy Policy, email <a href="mailto:iocompile67692@gmail.com">iocompile67692@gmail.com</a>.</p>
+
+        <div class="footer">
+            <p>&copy; <span id="year"></span> Quench. All rights reserved.</p>
+            <p><a href="support.html">Support</a> · <a href="terms.html">Terms of Use</a></p>
+        </div>
+    </div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

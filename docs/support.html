@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quench — Support</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: #f5f7fa;
+            color: #1a1a1a;
+            line-height: 1.7;
+            padding: 20px;
+        }
+        .container { max-width: 760px; margin: 0 auto; padding: 40px 20px; }
+        h1 { font-size: 34px; font-weight: 800; margin-bottom: 8px; color: #0D47A1; }
+        h2 { font-size: 22px; font-weight: 700; margin: 32px 0 12px; color: #1976D2; }
+        p { margin-bottom: 12px; }
+        ul, ol { margin: 0 0 16px 24px; }
+        li { margin-bottom: 8px; }
+        a { color: #1976D2; }
+        .back { display: inline-block; margin-bottom: 24px; text-decoration: none; color: #1976D2; font-weight: 600; }
+        .footer { margin-top: 60px; padding-top: 24px; border-top: 1px solid #e0e0e0; font-size: 14px; color: #666; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back">← Back to Home</a>
+        <h1>Quench Support</h1>
+        <p>We're here to help. Below you'll find answers to common questions, setup guides, and subscription management info.</p>
+
+        <h2>Getting Started</h2>
+        <ol>
+            <li><strong>Add your first plant:</strong> Tap the "+" button, choose "Take Photo" or "Pick Species", enter a nickname, and confirm the watering interval.</li>
+            <li><strong>Enable notifications:</strong> Allow notifications during onboarding so you receive the daily digest at 8 AM (or your custom time).</li>
+            <li><strong>Add the home screen widget:</strong> Long-press your home screen, tap "+", search "Quench", and choose the widget size. Tap any plant's water button to water it instantly.</li>
+        </ol>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <h2>Is the free version really free forever?</h2>
+        <p>Yes. Unlimited plants, daily digest reminders, the home screen widget, the species database, and adaptive scheduling are all free forever. No ads, no plant limits, no locked reminders.</p>
+
+        <h2>How does the daily digest work?</h2>
+        <p>Instead of sending one notification per plant (which causes notification fatigue), Quench sends a single summary notification at your preferred time (default 8 AM): "3 plants need water today: Monstera, Snake Plant, Pothos." You can change the time in Settings → Notification Time.</p>
+
+        <h2>What does Premium ($3.99) unlock?</h2>
+        <ul>
+            <li>Photo diary & growth timeline for each plant</li>
+            <li>WeatherKit integration for smarter schedules</li>
+            <li>Room management (light + humidity tracking)</li>
+            <li>Custom notification time</li>
+            <li>Data export (JSON backup)</li>
+            <li>Theme selection (light / dark / system)</li>
+        </ul>
+
+        <h2>How do AI features work? (BYO Key)</h2>
+        <p>Quench uses a <strong>Bring Your Own Key</strong> model. You provide your own OpenAI API key (stored securely in iOS Keychain — never on our servers). AI features (identification, diagnosis, coach chat) require either an AI Monthly/Yearly subscription or AI Lifetime purchase to unlock the AI Hub UI. Your OpenAI key handles the actual AI calls directly from your device.</p>
+
+        <h2>How do I get an OpenAI API key?</h2>
+        <ol>
+            <li>Visit <a href="https://platform.openai.com/api-keys" target="_blank" rel="noopener">platform.openai.com/api-keys</a></li>
+            <li>Create an account or sign in</li>
+            <li>Tap "Create new secret key"</li>
+            <li>Copy the key (starts with <code>sk-</code>)</li>
+            <li>In Quench: Settings → OpenAI API Key → Paste → Save</li>
+        </ol>
+        <p>Your key is stored in the iOS Keychain and never leaves your device except in direct API calls to OpenAI.</p>
+
+        <h2>Subscription Management</h2>
+        <p>To manage or cancel your AI Plant Doctor subscription:</p>
+        <ol>
+            <li>Open the <strong>Settings</strong> app on your iPhone</li>
+            <li>Tap your <strong>Apple ID</strong> at the top</li>
+            <li>Tap <strong>Subscriptions</strong></li>
+            <li>Find <strong>Quench AI Plant Doctor</strong></li>
+            <li>Tap it to change the plan or cancel</li>
+        </ol>
+        <p>Your subscription remains active until the end of the current billing period, even after cancellation.</p>
+
+        <h2>Free Trial</h2>
+        <p>The AI Monthly and AI Yearly subscriptions offer a 7-day free trial. The trial converts to a paid subscription automatically unless cancelled at least 24 hours before the trial ends. You can cancel anytime during the trial at no charge.</p>
+
+        <h2>Restore Purchases</h2>
+        <p>If you reinstall Quench or switch devices, go to Settings → Premium → Manage Subscriptions, then tap "Restore Purchases" on the paywall. All previous purchases (Premium Lifetime, AI subscription, AI Lifetime) will be restored.</p>
+
+        <h2>Need More Help?</h2>
+        <p>Email us at <a href="mailto:iocompile67692@gmail.com">iocompile67692@gmail.com</a> and we'll respond within 48 hours.</p>
+
+        <div class="footer">
+            <p>&copy; <span id="year"></span> Quench. All rights reserved.</p>
+            <p><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Use</a></p>
+        </div>
+    </div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

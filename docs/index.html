@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quench — Never Kill Another Plant</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: linear-gradient(160deg, #2196F3 0%, #1976D2 40%, #0D47A1 100%);
+            color: #fff;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        .hero {
+            text-align: center;
+            padding: 80px 20px 60px;
+        }
+        .hero-icon {
+            font-size: 88px;
+            margin-bottom: 24px;
+            display: inline-block;
+            width: 140px;
+            height: 140px;
+            line-height: 140px;
+            background: rgba(255,255,255,0.15);
+            border-radius: 32px;
+            backdrop-filter: blur(10px);
+        }
+        .hero h1 {
+            font-size: 52px;
+            font-weight: 800;
+            margin-bottom: 12px;
+            letter-spacing: -1px;
+        }
+        .hero .tagline {
+            font-size: 22px;
+            opacity: 0.92;
+            font-weight: 400;
+            max-width: 600px;
+            margin: 0 auto 36px;
+        }
+        .app-store-btn {
+            display: inline-block;
+            background: #000;
+            color: #fff;
+            padding: 14px 36px;
+            border-radius: 14px;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 600;
+            transition: transform 0.2s, opacity 0.2s;
+        }
+        .app-store-btn:hover { transform: translateY(-2px); opacity: 0.92; }
+        .app-store-btn .badge { font-size: 12px; display: block; opacity: 0.8; }
+        .app-store-btn .title { font-size: 22px; line-height: 1.2; }
+        .features {
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 28px;
+        }
+        .feature-card {
+            background: rgba(255,255,255,0.12);
+            border-radius: 24px;
+            padding: 36px 28px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.18);
+        }
+        .feature-card .icon { font-size: 48px; margin-bottom: 16px; }
+        .feature-card h3 { font-size: 22px; font-weight: 700; margin-bottom: 10px; }
+        .feature-card p { font-size: 16px; opacity: 0.9; }
+        .pricing {
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 40px 20px 80px;
+            text-align: center;
+        }
+        .pricing h2 { font-size: 36px; font-weight: 800; margin-bottom: 12px; }
+        .pricing .sub { font-size: 18px; opacity: 0.85; margin-bottom: 40px; }
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+        .price-card {
+            background: rgba(255,255,255,0.12);
+            border-radius: 20px;
+            padding: 28px 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.18);
+        }
+        .price-card .tier { font-size: 14px; text-transform: uppercase; letter-spacing: 1px; opacity: 0.8; }
+        .price-card .price { font-size: 32px; font-weight: 800; margin: 8px 0; }
+        .price-card .desc { font-size: 14px; opacity: 0.85; }
+        .footer {
+            text-align: center;
+            padding: 40px 20px;
+            background: rgba(0,0,0,0.25);
+            font-size: 14px;
+            opacity: 0.85;
+        }
+        .footer a { color: #fff; text-decoration: underline; }
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 38px; }
+            .hero .tagline { font-size: 18px; }
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-icon">🌱</div>
+        <h1>Quench</h1>
+        <p class="tagline">Never kill another plant. Free forever reminders, one-tap watering, and an AI plant doctor — all in one calm app.</p>
+        <a href="#" id="appStoreBtn" class="app-store-btn">
+            <span class="badge">Download on the</span>
+            <span class="title">App Store</span>
+        </a>
+    </section>
+
+    <section class="features">
+        <div class="feature-card">
+            <div class="icon">💧</div>
+            <h3>Free Forever Core</h3>
+            <p>Unlimited plants and daily digest watering reminders. No paywall on the feature you actually need — unlike Greg and Planta.</p>
+        </div>
+        <div class="feature-card">
+            <div class="icon">⚡</div>
+            <h3>One-Tap Watering</h3>
+            <p>Water any plant in 2 seconds from the home screen widget. No app launch required. Spring animation, haptic feedback, done.</p>
+        </div>
+        <div class="feature-card">
+            <div class="icon">🩺</div>
+            <h3>AI Plant Doctor</h3>
+            <p>Identify any species, diagnose problems, and chat with an AI coach. Bring your own OpenAI key — no subscriptions required for unlimited use.</p>
+        </div>
+    </section>
+
+    <section class="pricing">
+        <h2>Simple, Honest Pricing</h2>
+        <p class="sub">Free forever. Pay once for premium. No ads, ever.</p>
+        <div class="pricing-grid">
+            <div class="price-card">
+                <div class="tier">Free</div>
+                <div class="price">$0</div>
+                <div class="desc">Unlimited plants, daily reminders, widget, species database, adaptive scheduling</div>
+            </div>
+            <div class="price-card">
+                <div class="tier">Premium</div>
+                <div class="price">$3.99</div>
+                <div class="desc">One-time. Photo diary, weather, rooms, themes, export, custom notification time</div>
+            </div>
+            <div class="price-card">
+                <div class="tier">AI Monthly</div>
+                <div class="price">$1.99/mo</div>
+                <div class="desc">AI identification, diagnosis, and coach. 7-day free trial. Cancel anytime.</div>
+            </div>
+            <div class="price-card">
+                <div class="tier">AI Lifetime</div>
+                <div class="price">$19.99</div>
+                <div class="desc">One-time. Forever AI access with your own OpenAI key. No recurring fees.</div>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        <p>&copy; <span id="year"></span> Quench. All rights reserved.</p>
+        <p>Contact: <a href="mailto:iocompile67692@gmail.com">iocompile67692@gmail.com</a> · <a href="support.html">Support</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p>
+    </div>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+        (function() {
+            var APP_STORE_ID = 'APP_STORE_ID_PLACEHOLDER';
+            var btn = document.getElementById('appStoreBtn');
+            if (APP_STORE_ID === 'APP_STORE_ID_PLACEHOLDER' || !APP_STORE_ID || APP_STORE_ID === '') {
+                btn.href = '#';
+                btn.onclick = function(e) { e.preventDefault(); alert('Coming Soon! Quench will be available on the App Store soon.'); };
+                btn.querySelector('.title').textContent = 'Coming Soon';
+                btn.querySelector('.badge').textContent = 'Available on the';
+                btn.style.background = 'rgba(255,255,255,0.18)';
+                btn.style.border = '2px dashed rgba(255,255,255,0.6)';
+            } else {
+                btn.href = 'https://apps.apple.com/us/app/id' + APP_STORE_ID;
+                btn.target = '_blank';
+                btn.rel = 'noopener';
+            }
+        })();
+    </script>
+</body>
+</html>

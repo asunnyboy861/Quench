@@ -15,10 +15,10 @@
 
 | Page | URL | Status |
 |------|-----|--------|
-| Landing Page | https://asunnyboy861.github.io/Quench/ | ⏳ Pending |
-| Support | https://asunnyboy861.github.io/Quench/support.html | ⏳ Pending |
-| Privacy Policy | https://asunnyboy861.github.io/Quench/privacy.html | ⏳ Pending |
-| Terms of Use | https://asunnyboy861.github.io/Quench/terms.html | ⏳ Pending |
+| Landing Page | https://asunnyboy861.github.io/Quench/ | ✅ Active |
+| Support | https://asunnyboy861.github.io/Quench/support.html | ✅ Active |
+| Privacy Policy | https://asunnyboy861.github.io/Quench/privacy.html | ✅ Active |
+| Terms of Use | https://asunnyboy861.github.io/Quench/terms.html | ✅ Active |
 
 ## Repository Structure
 
