@@ -1,0 +1,452 @@
+[
+  {
+    "commonName": "Monstera Deliciosa",
+    "scientificName": "Monstera deliciosa",
+    "wateringFrequencyDays": 7,
+    "lightRequirement": "Bright",
+    "humidityPreference": "Average",
+    "toxicity": "Toxic to pets",
+    "careTips": "Water when top 2 inches of soil are dry. Provide a moss pole for support."
+  },
+  {
+    "commonName": "Snake Plant",
+    "scientificName": "Sansevieria trifasciata",
+    "wateringFrequencyDays": 14,
+    "lightRequirement": "Low",
+    "humidityPreference": "Low",
+    "toxicity": "Toxic to pets",
+    "careTips": "Tolerates neglect. Allow soil to dry completely between waterings."
+  },
+  {
+    "commonName": "Pothos",
+    "scientificName": "Epipremnum aureum",
+    "wateringFrequencyDays": 7,
+    "lightRequirement": "Medium",
+    "humidityPreference": "Average",
+    "toxicity": "Toxic to pets",
+    "careTips": "Trailing vine. Water when top inch of soil is dry."
+  },
+  {
+    "commonName": "ZZ Plant",
+    "scientificName": "Zamioculcas zamiifolia",
+    "wateringFrequencyDays": 14,
+    "lightRequirement": "Low",
+    "humidityPreference": "Low",
+    "toxicity": "Toxic to pets",
+    "careTips": "Drought tolerant. Water only when soil is completely dry."
+  },
+  {
+    "commonName": "Peace Lily",
+    "scientificName": "Spathiphyllum wallisii",
+    "wateringFrequencyDays": 5,
+    "lightRequirement": "Medium",
+    "humidityPreference": "High",
+    "toxicity": "Toxic to pets",
+    "careTips": "Droops dramatically when thirsty. Loves humidity."
+  },
+  {
+    "commonName": "Spider Plant",
+    "scientificName": "Chlorophytum comosum",
+    "wateringFrequencyDays": 7,
+    "lightRequirement": "Medium",
+    "humidityPreference": "Average",
+    "toxicity": "Non-toxic",
+    "careTips": "Produces baby spiderettes. Water when top inch is dry."
+  },
+  {
+    "commonName": "Rubber Plant",
+    "scientificName": "Ficus elastica",
+    "wateringFrequencyDays": 10,
+    "lightRequirement": "Bright",
+    "humidityPreference": "Average",
+    "toxicity": "Toxic to pets",
+    "careTips": "Wipe leaves to keep shiny. Allow topsoil to dry."
+  },
+  {
+    "commonName": "Fiddle Leaf Fig",
+    "scientificName": "Ficus lyrata",
+    "wateringFrequencyDays": 7,
+    "lightRequirement": "Bright",
+    "humidityPreference": "Average",
+    "toxicity": "Toxic to pets",
+    "careTips": "Sensitive to changes. Water when top inch is dry."
+  },
+  {
+    "commonName": "Philodendron",
+    "scientificName": "Philodendron hederaceum",
+    "wateringFrequencyDays": 7,
+    "lightRequirement": "Medium",
+    "humidityPreference": "Average",
+    "toxicity": "Toxic to pets",
+    "careTips": "Trailing vine. Water when topsoil feels dry."
+  },
+  {
+    "commonName": "Aloe Vera",
+    "scientificName": "Aloe vera",
+    "wateringFrequencyDays": 14,
+    "lightRequirement": "Bright",
+    "humidityPreference": "Low",
+    "toxicity": "Toxic to pets",
+    "careTips": "Succulent. Water deeply but infrequently."
+  },
+  {
+    "commonName": "Jade Plant",
+    "scientificName": "Crassula ovata",
+    "wateringFrequencyDays": 14,
+    "lightRequirement": "Bright",
+    "humidityPreference": "Low",
+    "toxicity": "Toxic to pets",
+    "careTips": "Succulent. Allow soil to dry fully between waterings."
+  },
+  {
+    "commonName": "Boston Fern",
+    "scientificName": "Nephrolepis exaltata",
+    "wateringFrequencyDays": 4,
+    "lightRequirement": "Medium",
+    "humidityPreference": "High",
+    "toxicity": "Non-toxic",
+    "careTips": "Loves humidity. Keep soil consistently moist."
+  },
+  {
+    "commonName": "English Ivy",
+    "scientificName": "Hedera helix",
+    "wateringFrequencyDays": 7,
+    "lightRequirement": "Medium",
+    "humidityPreference": "Average",
+    "toxicity": "Toxic to pets",
+    "careTips": "Allow topsoil to dry slightly between waterings."
+  },
+  {
+    "commonName": "Calathea",
+    "scientificName": "Calathea orbifolia",
+    "wateringFrequencyDays": 5,
+    "lightRequirement": "Medium",
+    "humidityPreference": "High",
+    "toxicity": "Non-toxic",
+    "careTips": "Prefers filtered water. High humidity required."
+  },
+  {
+    "commonName": "Begonia",
+    "scientificName": "Begonia rex",
+    "wateringFrequencyDays": 6,
+    "lightRequirement": "Medium",
+    "humidityPreference": "High",
+    "toxicity": "Toxic to pets",
+    "careTips": "Avoid wetting leaves. Water at soil level."
+  },
+  {
+    "commonName": "Chinese Evergreen",
+    "scientificName": "Aglaonema commutatum",
+    "wateringFrequencyDays": 8,
+    "lightRequirement": "Low",
+    "humidityPreference": "Average",
+    "toxicity": "Toxic to pets",
+    "careTips": "Tolerates low light. Allow topsoil to dry."
+  },
+  {
+    "commonName": "Dumb Cane",
+    "scientificName": "Dieffenbachia seguine",
+    "wateringFrequencyDays": 7,
+    "lightRequirement": "Medium",
+    "humidityPreference": "Average",
+    "toxicity": "Toxic to pets",
+    "careTips": "Keep away from children and pets."
+  },
+  {
+    "commonName": "Dracaena",
+    "scientificName": "Dracaena marginata",
+    "wateringFrequencyDays": 10,
+    "lightRequirement": "Medium",
+    "humidityPreference": "Average",
+    "toxicity": "Toxic to pets",
+    "careTips": "Sensitive to fluoride. Use filtered water."
+  },
+  {
+    "commonName": "Croton",
+    "scientificName": "Codiaeum variegatum",
+    "wateringFrequencyDays": 5,
+    "lightRequirement": "Bright",
+    "humidityPreference": "High",
+    "toxicity": "Toxic to pets",
+    "careTips": "Bright light enhances leaf color."
+  },
+  {
+    "commonName": "Anthurium",
+    "scientificName": "Anthurium andraeanum",
+    "wateringFrequencyDays": 6,
+    "lightRequirement": "Bright",
+    "humidityPreference": "High",
+    "toxicity": "Toxic to pets",
+    "careTips": "Produces red flowers. Loves humidity."
+  },
+  {
+    "commonName": "Parlor Palm",
+    "scientificName": "Chamaedorea elegans",
+    "wateringFrequencyDays": 7,
+    "lightRequirement": "Low",
+    "humidityPreference": "Average",
+    "toxicity": "Non-toxic",
+    "careTips": "Pet-safe palm. Tolerates low light."
+  },
+  {
+    "commonName": "Bird's Nest Fern",
+    "scientificName": "Asplenium nidus",
+    "wateringFrequencyDays": 5,
+    "lightRequirement": "Medium",
+    "humidityPreference": "High",
+    "toxicity": "Non-toxic",
+    "careTips": "Avoid watering center rosette."
+  },
+  {
+    "commonName": "Prayer Plant",
+    "scientificName": "Maranta leuconeura",
+    "wateringFrequencyDays": 5,
+    "lightRequirement": "Medium",
+    "humidityPreference": "High",
+    "toxicity": "Non-toxic",
+    "careTips": "Leaves fold up at night. Loves humidity."
+  },
+  {
+    "commonName": "Wandering Jew",
+    "scientificName": "Tradescantia zebrina",
+    "wateringFrequencyDays": 6,
+    "lightRequirement": "Bright",
+    "humidityPreference": "Average",
+    "toxicity": "Toxic to pets",
+    "careTips": "Fast-growing trailing plant."
+  },
+  {
+    "commonName": "String of Pearls",
+    "scientificName": "Senecio rowleyanus",
+    "wateringFrequencyDays": 14,
+    "lightRequirement": "Bright",
+    "humidityPreference": "Low",
+    "toxicity": "Toxic to pets",
+    "careTips": "Succulent. Allow soil to dry fully."
+  },
+  {
+    "commonName": "String of Hearts",
+    "scientificName": "Ceropegia woodii",
+    "wateringFrequencyDays": 10,
+    "lightRequirement": "Bright",
+    "humidityPreference": "Low",
+    "toxicity": "Non-toxic",
+    "careTips": "Trailing succulent-like vine."
+  },
+  {
+    "commonName": "Sago Palm",
+    "scientificName": "Cycas revoluta",
+    "wateringFrequencyDays": 12,
+    "lightRequirement": "Bright",
+    "humidityPreference": "Low",
+    "toxicity": "Toxic to pets",
+    "careTips": "Slow growing. Highly toxic to pets."
+  },
+  {
+    "commonName": "Yucca",
+    "scientificName": "Yucca elephantipes",
+    "wateringFrequencyDays": 14,
+    "lightRequirement": "Bright",
+    "humidityPreference": "Low",
+    "toxicity": "Toxic to pets",
+    "careTips": "Drought tolerant. Allow soil to dry."
+  },
+  {
+    "commonName": "Majesty Palm",
+    "scientificName": "Ravenea rivularis",
+    "wateringFrequencyDays": 5,
+    "lightRequirement": "Bright",
+    "humidityPreference": "High",
+    "toxicity": "Non-toxic",
+    "careTips": "Needs consistent moisture and bright light."
+  },
+  {
+    "commonName": "Areca Palm",
+    "scientificName": "Dypsis lutescens",
+    "wateringFrequencyDays": 7,
+    "lightRequirement": "Bright",
+    "humidityPreference": "Average",
+    "toxicity": "Non-toxic",
+    "careTips": "Pet-safe palm. Allow topsoil to dry slightly."
+  },
+  {
+    "commonName": "African Violet",
+    "scientificName": "Saintpaulia ionantha",
+    "wateringFrequencyDays": 5,
+    "lightRequirement": "Medium",
+    "humidityPreference": "High",
+    "toxicity": "Non-toxic",
+    "careTips": "Water from bottom. Avoid wetting leaves."
+  },
+  {
+    "commonName": "Hoya",
+    "scientificName": "Hoya carnosa",
+    "wateringFrequencyDays": 10,
+    "lightRequirement": "Bright",
+    "humidityPreference": "Average",
+    "toxicity": "Non-toxic",
+    "careTips": "Wax plant. Allow soil to dry between waterings."
+  },
+  {
+    "commonName": "Lipstick Plant",
+    "scientificName": "Aeschynanthus radicans",
+    "wateringFrequencyDays": 7,
+    "lightRequirement": "Medium",
+    "humidityPreference": "High",
+    "toxicity": "Non-toxic",
+    "careTips": "Trailing plant with red flowers."
+  },
+  {
+    "commonName": "Polka Dot Plant",
+    "scientificName": "Hypoestes phyllostachya",
+    "wateringFrequencyDays": 5,
+    "lightRequirement": "Medium",
+    "humidityPreference": "High",
+    "toxicity": "Non-toxic",
+    "careTips": "Colorful foliage. Keep soil moist."
+  },
+  {
+    "commonName": "Air Plant",
+    "scientificName": "Tillandsia",
+    "wateringFrequencyDays": 3,
+    "lightRequirement": "Bright",
+    "humidityPreference": "High",
+    "toxicity": "Non-toxic",
+    "careTips": "No soil needed. Soak in water weekly."
+  },
+  {
+    "commonName": "Lucky Bamboo",
+    "scientificName": "Dracaena sanderiana",
+    "wateringFrequencyDays": 7,
+    "lightRequirement": "Medium",
+    "humidityPreference": "High",
+    "toxicity": "Toxic to pets",
+    "careTips": "Grows in water or soil. Change water weekly."
+  },
+  {
+    "commonName": "Ponytail Palm",
+    "scientificName": "Beaucarnea recurvata",
+    "wateringFrequencyDays": 14,
+    "lightRequirement": "Bright",
+    "humidityPreference": "Low",
+    "toxicity": "Non-toxic",
+    "careTips": "Stores water in trunk. Allow soil to dry."
+  },
+  {
+    "commonName": "Cactus",
+    "scientificName": "Cactaceae",
+    "wateringFrequencyDays": 21,
+    "lightRequirement": "Direct",
+    "humidityPreference": "Low",
+    "toxicity": "Non-toxic",
+    "careTips": "Water deeply but infrequently. Needs bright light."
+  },
+  {
+    "commonName": "Christmas Cactus",
+    "scientificName": "Schlumbergera",
+    "wateringFrequencyDays": 10,
+    "lightRequirement": "Medium",
+    "humidityPreference": "Average",
+    "toxicity": "Non-toxic",
+    "careTips": "Blooms in winter. Reduce watering in fall."
+  },
+  {
+    "commonName": "Echeveria",
+    "scientificName": "Echeveria elegans",
+    "wateringFrequencyDays": 14,
+    "lightRequirement": "Bright",
+    "humidityPreference": "Low",
+    "toxicity": "Non-toxic",
+    "careTips": "Rosette succulent. Allow soil to dry fully."
+  },
+  {
+    "commonName": "Haworthia",
+    "scientificName": "Haworthia fasciata",
+    "wateringFrequencyDays": 14,
+    "lightRequirement": "Bright",
+    "humidityPreference": "Low",
+    "toxicity": "Non-toxic",
+    "careTips": "Pet-safe succulent. Allow soil to dry."
+  },
+  {
+    "commonName": "Gasteria",
+    "scientificName": "Gasteria",
+    "wateringFrequencyDays": 14,
+    "lightRequirement": "Bright",
+    "humidityPreference": "Low",
+    "toxicity": "Non-toxic",
+    "careTips": "Pet-safe succulent with thick leaves."
+  },
+  {
+    "commonName": "Kalanchoe",
+    "scientificName": "Kalanchoe blossfeldiana",
+    "wateringFrequencyDays": 12,
+    "lightRequirement": "Bright",
+    "humidityPreference": "Low",
+    "toxicity": "Toxic to pets",
+    "careTips": "Blooms in winter. Allow soil to dry."
+  },
+  {
+    "commonName": "Burro's Tail",
+    "scientificName": "Sedum morganianum",
+    "wateringFrequencyDays": 14,
+    "lightRequirement": "Bright",
+    "humidityPreference": "Low",
+    "toxicity": "Non-toxic",
+    "careTips": "Trailing succulent. Handle carefully."
+  },
+  {
+    "commonName": "Elephant Bush",
+    "scientificName": "Portulacaria afra",
+    "wateringFrequencyDays": 12,
+    "lightRequirement": "Bright",
+    "humidityPreference": "Low",
+    "toxicity": "Non-toxic",
+    "careTips": "Bonsai-friendly succulent."
+  },
+  {
+    "commonName": "Pilea",
+    "scientificName": "Pilea peperomioides",
+    "wateringFrequencyDays": 7,
+    "lightRequirement": "Bright",
+    "humidityPreference": "Average",
+    "toxicity": "Non-toxic",
+    "careTips": "Chinese money plant. Produces babies."
+  },
+  {
+    "commonName": "Peperomia",
+    "scientificName": "Peperomia obtusifolia",
+    "wateringFrequencyDays": 10,
+    "lightRequirement": "Medium",
+    "humidityPreference": "Average",
+    "toxicity": "Non-toxic",
+    "careTips": "Pet-safe. Allow topsoil to dry."
+  },
+  {
+    "commonName": "Fittonia",
+    "scientificName": "Fittonia albivenis",
+    "wateringFrequencyDays": 4,
+    "lightRequirement": "Medium",
+    "humidityPreference": "High",
+    "toxicity": "Non-toxic",
+    "careTips": "Nerve plant. Needs consistent moisture."
+  },
+  {
+    "commonName": "Moss",
+    "scientificName": "Bryophyta",
+    "wateringFrequencyDays": 2,
+    "lightRequirement": "Low",
+    "humidityPreference": "High",
+    "toxicity": "Non-toxic",
+    "careTips": "Keep consistently moist. Terrarium-friendly."
+  },
+  {
+    "commonName": "Orchid",
+    "scientificName": "Phalaenopsis",
+    "wateringFrequencyDays": 10,
+    "lightRequirement": "Bright",
+    "humidityPreference": "High",
+    "toxicity": "Non-toxic",
+    "careTips": "Water weekly. Allow roots to dry between waterings."
+  }
+]
