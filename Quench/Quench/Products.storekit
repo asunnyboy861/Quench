@@ -1,0 +1,139 @@
+{
+  "identifier" : "F8A2B4C6-8E0D-4A2B-9C1D-5E6F7A8B9C0D",
+  "type" : "local",
+  "version" : 3,
+  "products" : [
+    {
+      "displayPrice" : "3.99",
+      "familyShareable" : false,
+      "internalID" : "10D8C2F4-6A2B-4C8D-9E1F-0A1B2C3D4E5F",
+      "localizations" : [
+        {
+          "description" : "Photo diary, weather, rooms, themes, export",
+          "displayName" : "Quench Premium",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.zzoutuo.Quench.lifetime",
+      "purchaseOption" : "buyOnce",
+      "referenceName" : "Quench Premium Lifetime",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "20E9D3A5-7B3C-4D9E-AF2A-1B2C3D4E5F60",
+      "localizations" : [
+        {
+          "description" : "AI identification, diagnosis, coaching",
+          "displayName" : "AI Plant Doctor Monthly",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.zzoutuo.Quench.ai.monthly",
+      "purchaseOption" : "autoRenewable",
+      "referenceName" : "Quench AI Monthly",
+      "subscriptionPeriod" : "P1M",
+      "subscriptionGroupID" : "A1B2C3D4-E5F6-7890-ABCD-EF1234567890",
+      "type" : "AutoRenewableSubscription",
+      "introductoryOffer" : {
+        "displayPrice" : "0.00",
+        "internalID" : "30FA1E4B-8C4D-4E0F-BA3B-2C3D4E5F6070",
+        "paymentMode" : "free",
+        "subscriptionPeriod" : "P7D"
+      }
+    },
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "40FB2F5C-9D5E-4F1A-CB4C-3D4E5F607180",
+      "localizations" : [
+        {
+          "description" : "Yearly AI identification and diagnosis",
+          "displayName" : "AI Plant Doctor Yearly",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.zzoutuo.Quench.ai.yearly",
+      "purchaseOption" : "autoRenewable",
+      "referenceName" : "Quench AI Yearly",
+      "subscriptionPeriod" : "P1Y",
+      "subscriptionGroupID" : "A1B2C3D4-E5F6-7890-ABCD-EF1234567890",
+      "type" : "AutoRenewableSubscription",
+      "introductoryOffer" : {
+        "displayPrice" : "0.00",
+        "internalID" : "50AC3A6D-0E6F-4A2B-DC5D-4E5F60718290",
+        "paymentMode" : "free",
+        "subscriptionPeriod" : "P7D"
+      }
+    },
+    {
+      "displayPrice" : "19.99",
+      "familyShareable" : false,
+      "internalID" : "60BD4B7E-1F70-4B3C-ED6E-5F60718293A0",
+      "localizations" : [
+        {
+          "description" : "Lifetime AI identification and diagnosis",
+          "displayName" : "AI Plant Doctor Lifetime",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.zzoutuo.Quench.ai.lifetime",
+      "purchaseOption" : "buyOnce",
+      "referenceName" : "Quench AI Lifetime",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Purchases Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  }
+}
